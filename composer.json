@@ -1,0 +1,35 @@
+{
+  "name": "drupal/cpb",
+  "type": "drupal-module",
+  "description": "Custom project base",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/cpb",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/cpb",
+    "source": "http://cgit.drupalcode.org/cpb"
+  },
+  "repositories": {
+    "swiper": {
+      "type": "package",
+      "package": {
+        "name": "nolimits4web/swiper",
+        "version": "6.4.5",
+        "type": "drupal-library",
+        "source": {
+          "url": "https://github.com/nolimits4web/swiper",
+          "type": "git",
+          "reference": "origin/master"
+        },
+        "dist": {
+          "url": "https://github.com/nolimits4web/swiper/archive/v6.4.5.zip",
+          "type": "zip"
+        }
+      }
+    }
+  },
+  "require": {
+    "nolimits4web/swiper": "6.4.5"
+  }
+}

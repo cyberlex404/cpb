@@ -1,0 +1,8 @@
+name: Custom project base
+type: module
+description: Custom project base features and libraries
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - admin_toolbar
