@@ -1,5 +1,5 @@
 {
-  "name": "drupal/cpb",
+  "name": "cyberlex404/cpb",
   "type": "drupal-module",
   "description": "Custom project base",
   "keywords": ["Drupal"],
