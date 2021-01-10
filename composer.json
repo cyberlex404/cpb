@@ -6,10 +6,6 @@
   "license": "GPL-2.0+",
   "homepage": "https://www.drupal.org/project/cpb",
   "minimum-stability": "dev",
-  "support": {
-    "issues": "https://www.drupal.org/project/issues/cpb",
-    "source": "http://cgit.drupalcode.org/cpb"
-  },
   "repositories": {
     "swiper": {
       "type": "package",
